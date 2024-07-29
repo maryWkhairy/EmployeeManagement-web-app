@@ -165,3 +165,4 @@ C:\Users\mwaseem\Desktop\EmployeeManagement web app\bin\Debug\net8.0\runtimes\wi
 C:\Users\mwaseem\Desktop\EmployeeManagement web app\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\mwaseem\Desktop\EmployeeManagement web app\obj\Debug\net8.0\EmployeeManagement web app.csproj.AssemblyReference.cache
 C:\Users\mwaseem\Desktop\EmployeeManagement web app\obj\Debug\net8.0\Employee.6D2936C6.Up2Date
+C:\Users\mwaseem\Desktop\EmployeeManagement web app\obj\Debug\net8.0\EmployeeManagement web app.sourcelink.json
