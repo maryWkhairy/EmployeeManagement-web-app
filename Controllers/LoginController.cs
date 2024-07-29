@@ -22,7 +22,7 @@ public class LoginController : Controller
                     return NotFound($"wrong username or password"); // Return 404 Not Found if user with the given ID is not found
                 }
 
-                return RedirectToAction("GetEmployeeById","EmployeeController",new { id = employee.Id });
+                return RedirectToAction("GetEmployeeById","Employee",new { id = employee.Id });
             } 
             catch (Exception ex)
             {
