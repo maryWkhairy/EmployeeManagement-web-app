@@ -12,7 +12,7 @@ public class LoginController : Controller
     }
 
     [HttpPost]
-    public IActionResult Login(string username, string password)
+    public IActionResult Login([FromForm]string username,[FromForm] string password)
     {
         try{
                 var employee = _context.Employees.FirstOrDefault(u => u.Email == username && u.Password == password);
@@ -22,7 +22,7 @@ public class LoginController : Controller
                     return NotFound($"wrong username or password"); // Return 404 Not Found if user with the given ID is not found
                 }
 
-                return RedirectToAction("GetEmployeeById","Employee",new { id = employee.Id });
+                return RedirectToAction("GetEmployeeById","Employee",new{id=employee.Id});
             } 
             catch (Exception ex)
             {
